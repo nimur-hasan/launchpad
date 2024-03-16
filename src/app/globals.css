@@ -58,3 +58,12 @@ body {
   width: 1410px;
   margin: 0 auto;
 }
+
+.key-features {
+  background-image: linear-gradient(
+    139.82deg,
+    rgb(241, 255, 252) 2.49%,
+    rgb(241, 241, 255) 40.97%,
+    rgb(230, 246, 255) 77.11%
+  );
+}
