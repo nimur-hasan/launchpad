@@ -53,7 +53,7 @@ export function ProjectCard() {
         <div className="ml-6">
           <h2 className="text-[24px] leading-[31px] font-medium">Genius X</h2>
           <div className="ml-0.5 flex">
-            <img height="14px" width="14px" src="/circle.svg" alt="" />
+            <img height="14px" width="14px" src="/icons/circle.svg" alt="" />
             <p className="px-3 text-[12px] whitespace-nowrap ">Closed</p>
           </div>
         </div>

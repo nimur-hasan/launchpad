@@ -11,7 +11,7 @@ export const socialMediaLinks = [
 ];
 
 export const footerLinks = [
-  { title: "Careers", href: "#" },
+  { title: "Careers", href: "" },
   { title: "Genius Yield", href: "#" },
   { title: "Genius Academy", href: "#" },
   { title: "Privacy Policy", href: "#" },

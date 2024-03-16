@@ -36,15 +36,31 @@ export default function Footer() {
           <div className="flex flex-col">
             <div className="flex max-w-[420px] flex-wrap justify-end gap-[25px]">
               {footerLinks.slice(0, 3).map((item, index) => (
-                <div className="whitespace-nowrap text-[#fd4f6e] font-medium">
-                  {item.title}
+                <div className="flex gap-1 whitespace-nowrap text-[#fd4f6e] font-medium">
+                  {item.title}{" "}
+                  {item.href && (
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/icons/arrow-right-up.svg"
+                      alt="Arrow"
+                    />
+                  )}
                 </div>
               ))}
             </div>
-            <div className=" mt-2 flex max-w-[420px] flex-wrap justify-end gap-[25px]">
+            <div className=" mt-2 flex max-w-[520px] flex-wrap justify-end gap-[25px]">
               {footerLinks.slice(3, 6).map((item, index) => (
-                <div className="whitespace-nowrap text-[#fd4f6e] font-medium">
-                  {item.title} {item.href && <span></span>}
+                <div className="flex gap-1 whitespace-nowrap text-[#fd4f6e] font-medium">
+                  {item.title}{" "}
+                  {item.href && (
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/icons/arrow-right-up.svg"
+                      alt="Arrow"
+                    />
+                  )}
                 </div>
               ))}
             </div>
