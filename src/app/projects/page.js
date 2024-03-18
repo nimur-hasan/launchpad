@@ -12,6 +12,7 @@ import KeyFeatures from "./components/KeyFeatures";
 import MeetTheTeam from "./components/MeetTheTeam";
 import Community from "./components/Community";
 import ProjectRoadmap from "./components/ProjectRoadmap";
+import Tokenomics from "./components/Tokenomics";
 
 export default function Page() {
   return (
@@ -23,6 +24,7 @@ export default function Page() {
             <MainCard />
             <ProjectStages />
             <TokenUtilities />
+            <Tokenomics />
             <ProjectDetails />
             <KeyFeatures />
             <MeetTheTeam />

@@ -1,6 +1,7 @@
 import { menu } from "@/_data/menu";
 import PrimaryButton from "@/components/ui/PrimaryButton";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
@@ -14,7 +15,7 @@ export default function Header() {
           <div className="flex ml-20 mr-10">
             {menu.map((item, index) => (
               <div className="py-1.5 px-4 cursor-pointer font-medium font-[Prompt] hover:bg-white hover:bg-opacity-10">
-                {item.title}
+                <Link href={item.href}>{item.title}</Link>
               </div>
             ))}
           </div>
